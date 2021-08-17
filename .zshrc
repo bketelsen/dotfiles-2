@@ -44,7 +44,7 @@ for file in ~/.zsh/includes/*; do
     source "$file"
 done
 
-#eval "$(direnv hook zsh)"
-#eval "$(starship init zsh)"
+eval "$(direnv hook zsh)"
+eval "$(starship init zsh)"
 
 
