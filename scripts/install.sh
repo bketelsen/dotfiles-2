@@ -34,3 +34,4 @@ sudo apt-get install -y htop build-essential cmake pkg-config
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
