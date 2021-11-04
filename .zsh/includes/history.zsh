@@ -8,9 +8,9 @@ zinit ice silent wait"0"
 zinit snippet OMZ::plugins/per-directory-history/per-directory-history.zsh
 
 zinit ice silent wait"0"
-zinit light zdharma/history-search-multi-word
+zinit light zdharma-continuum/history-search-multi-word
 
-source $HOMEBREW_PREFIX/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+source $HOME/.zsh/plugins/zsh-history-substring-search.zsh
 ##
 # Configuration
 ##
