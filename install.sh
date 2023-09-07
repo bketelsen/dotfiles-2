@@ -2,9 +2,9 @@
 mv ~/.bashrc ~/.bashrc.bak
 mv ~/.profile ~/.profile.bak
 
-ln -s $HOME/dotfiles/.bashrc ~/.bashrc
-ln -s $HOME/dotfiles/.profile ~/.profile
-ln -s $HOME/dotfiles/.gitconfig ~/.gitconfig
+ln -s .bashrc ~/.bashrc
+ln -s .profile ~/.profile
+ln -s .gitconfig ~/.gitconfig
 
 sudo apt-get install -y build-essential
 export NONINTERACTIVE=1
