@@ -2,9 +2,11 @@
 mv ~/.bashrc ~/.bashrc.bak
 mv ~/.profile ~/.profile.bak
 
-ln -s .bashrc ~/.bashrc
-ln -s .profile ~/.profile
-ln -s .gitconfig ~/.gitconfig
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+ln -s ${SCRIPT_DIR}/.bashrc ~/.bashrc
+ln -s ${SCRIPT_DIR}/.profile ~/.profile
+ln -s ${SCRIPT_DIR}/.gitconfig ~/.gitconfig
 
 sudo apt-get install -y build-essential
 export NONINTERACTIVE=1
